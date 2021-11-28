@@ -33,7 +33,7 @@ In JavaScript on browser, you can call *window.getComputedStyle(element)* :
 
 - [TC1](Scripts/TC1/Script1638054110108.groovy)
 
-```Scripts/TC1/Script1638054110108.groovy
+```python:Scripts/TC1/Script1638054110108.groovy
 ```
 
 
