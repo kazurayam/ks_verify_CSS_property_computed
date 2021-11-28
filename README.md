@@ -88,7 +88,7 @@ if (result2  == true) {
 WebUI.closeBrowser()
 ```
 
-When I execute it, I saw a bunch of messages in the console. At first, I saw the list of all computed CSS properties of the "header" element.
+When I execute it on Chrome browser, I saw a bunch of messages in the console. At first, I saw the long list of all computed CSS properties of the "header" element.
 
 ```
 2021-11-28 08:39:59.092 DEBUG testcase.TC1                             - 5: result1.each({ java.lang.Object item -> ... })
@@ -442,7 +442,9 @@ Next, I want to further verify the value of each of RGB factors.
 2. verify if the Greenn factor is "121"
 3. verify if the Blue factor is "222"
 
-Then I needed to parse a String value of the `rgb` variable. I employed the Regular Expuression support (`java.util.regex.Patter` and `java.util.regex.Matcher`).
+Then I needed to parse a String value of the `rgb` variable. I employed the Regular Expuression support in Java/Groovy (`java.util.regex.Patter` and `java.util.regex.Matcher`).
+
+## Usability
 
 This code is useful, but as you see, it is long and complicated. You would like to make it a Custom Keyword. Please try for yourself.
 
