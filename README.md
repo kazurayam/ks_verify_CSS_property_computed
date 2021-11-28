@@ -39,6 +39,6 @@ In JavaScript on browser, you can call *window.getComputedStyle(element)* :
 
 This approach is version-independent. It should work with all versions of Katalo Studio since v7.x.
 
-## Download the demo
+## How to download the demo
 
 You can download the zip of this project from the [Releases](https://github.com/kazurayam/ks_verify_CSS_property_computed/releases) page, download it, open it using your local Katalon Studio.
