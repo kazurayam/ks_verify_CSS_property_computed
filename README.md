@@ -1,4 +1,4 @@
-# How to verify value of CSS property in a web page
+# How to verify CSS property of HTML element
 
 I made this project to propose a solution to a question raised in the Katalon Studio User Forum.
 
@@ -446,7 +446,7 @@ Then I needed to parse a String value of the `rgb` variable. I employed the Regu
 
 ## Usability
 
-This code is useful, but as you see, it is long and complicated. You would like to make it a Custom Keyword. Please try for yourself.
+This code is useful, but as you see, it is long and complicated. You would like to make it a Custom Keyword. Please try it for yourself.
 
 This approach is version-independent. It should work with all versions of Katalo Studio since v7.x.
 
