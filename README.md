@@ -33,7 +33,7 @@ In JavaScript on browser, you can call *window.getComputedStyle(element)* :
 
 - [TC1](Scripts/TC1/Script1638054110108.groovy)
 
-```groovy
+``` java
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
@@ -88,7 +88,7 @@ if (result2  == true) {
 WebUI.closeBrowser()
 ```
 
-When I execute it on Chrome browser, I saw a bunch of messages in the console. At first, I saw the long list of all computed CSS properties of the "header" element.
+When I execute it on Chrome browser, I saw a bunch of messages in the console. At first, I saw a long list of all computed CSS properties of the "header" element.
 
 ```
 2021-11-28 08:39:59.092 DEBUG testcase.TC1                             - 5: result1.each({ java.lang.Object item -> ... })
@@ -439,10 +439,10 @@ As you see, the `rgb` variable contained a string `"rgb(23, 121, 222)"`.
 Next, I want to further verify the value of each of RGB factors.
 
 1. verify if the Red factor is "23"
-2. verify if the Greenn factor is "121"
+2. verify if the Green factor is "121"
 3. verify if the Blue factor is "222"
 
-Then I needed to parse a String value of the `rgb` variable. I employed the Regular Expuression support in Java/Groovy (`java.util.regex.Patter` and `java.util.regex.Matcher`).
+Then I needed to parse a String value of the `rgb` variable. I employed the Regular Expression support in Java/Groovy (`java.util.regex.Patter` and `java.util.regex.Matcher`).
 
 ## Usability
 
